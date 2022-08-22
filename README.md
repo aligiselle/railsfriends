@@ -1,24 +1,11 @@
-# README
+# Friends List App
+===========
+Hello, my name is Alisha James and I work at the THA - Division of Food Security, Natural Resources, the Environment & Sustainable Development.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+=============
+Follow me on Instagram at ali_giselle
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Prerequisites
+------
+* Ruby 3.1.2p20
+* Rails 7.0.3.1
