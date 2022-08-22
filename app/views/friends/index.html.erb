@@ -1,0 +1,30 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Friend List</h1>
+
+<div id="friends">
+  <table class="table">
+    <thead class="table-dark">
+      <tr>
+        <th colspan="2">Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Twitter</th>
+        <th>User ID</th>
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody>
+  <% @friends.each do |friend| %>
+  <% if friend.user == current_user %>
+    <%= render friend %>
+    <% end %>
+  <% end %>
+
+   </tbody>
+  </table>
+</div>
+
+
+<%= link_to "New friend", new_friend_path, class: "btn btn-success float-end" %>
